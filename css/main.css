@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+
+body {
+  background: #fff;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+
+}
+
+header {
+  background: #fff;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+header.notop {
+  margin-top: 0;
+}
+
+#content.addtop {
+  margin-top: 153px;
+}
+
+header h1, #contact {
+  font-size: 14px;
+  font-family: arial;
+  text-align: center;
+  font-weight: normal;
+  padding: 10px 0 10px;
+  margin: 0;
+  color : #001F7A;
+}
+
+header h1 a, #contact a {
+  color : #001F7A;
+  font-weight: bold;
+  text-decoration: none
+}
+
+header h1 a:hover, #contact a:hover {
+  text-decoration: none;
+  color: #FF0000
+}
+
+#contact {
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+#contact a {
+  color : silver;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ff0000;
+}
+h1, h2 {
+  font-family: 'EB Garamond', serif;
+  font-weight: bold;
+}
+
+.gist {
+  font-size: 14px;
+}
+
+.post {
+  margin-bottom: 80px;
+}
+
+.readmore {
+  font-family: arial;
+  text-align: right;
+  font-size: 14px;
+}
+
+blockquote {
+  font-style: italic;
+  border: 0;
+  padding: 20px 50px;
+}
+
+footer {
+  margin: 20px 0;
+  text-align: center;
+}
+
+footer h2 a, h2 {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 11px;
+  font-family: arial;
+}
